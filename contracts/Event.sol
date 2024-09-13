@@ -47,7 +47,7 @@ contract EventContract {
     */
     function createEvent(string memory _eventName, uint256 _eventDate, string[] memory _speakers, string memory  _locationName ) external onlyOwner {
         
-        require(msg.sender != address(0), "Invalid input");
+        require(msg.sender != address(0), "Invalid address");
         require(bytes(_eventName).length > 0, "Title cant be empty");
         require(bytes(_locationName).length > 0, "Location cant be empty");
         require(_eventDate > block.timestamp);
@@ -74,7 +74,7 @@ contract EventContract {
      * @param _eventId The ID of the event to register for.
     */
     function registerForEvent(uint256 _eventId) external {
-        require(msg.sender != address(0), "Invalid input");
+        require(msg.sender != address(0), "Invalid address");
         Event storage _event = events[_eventId];
         require(_eventId > 0, "Invalid input");
         require(_event.isCompleted == false, "Event completed");
