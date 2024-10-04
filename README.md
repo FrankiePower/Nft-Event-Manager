@@ -9,6 +9,7 @@ This project implements a smart contract system for event management with NFT-ba
 The `EventContract` manages event creation, registration, and attendee tracking.
 
 #### Key Features:
+
 - Create events (owner only)
 - Register for events (requires NFT ownership)
 - View event attendees
@@ -16,6 +17,7 @@ The `EventContract` manages event creation, registration, and attendee tracking.
 - List all events
 
 #### Main Functions:
+
 - `createEvent`: Create a new event (owner only)
 - `registerForEvent`: Register for an event (requires NFT)
 - `getAttendees`: Get list of attendees for an event
@@ -27,10 +29,12 @@ The `EventContract` manages event creation, registration, and attendee tracking.
 The `Sliders` contract is an ERC721 token used for event registration.
 
 #### Key Features:
+
 - Mint new NFTs
 - ERC721 standard compliant
 
 #### Main Functions:
+
 - `mintNFT`: Mint a new NFT with a specified tokenURI
 
 ## Usage
@@ -50,6 +54,11 @@ The `Sliders` contract is an ERC721 token used for event registration.
 ## Development
 
 This project uses Solidity ^0.8.24 and OpenZeppelin contracts. Ensure you have the necessary development environment set up for Ethereum smart contract development.
+
+# Addresses
+
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+MyNFT deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 
 ## License
 

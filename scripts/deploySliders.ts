@@ -8,6 +8,11 @@ async function main() {
   const myNFT = await MySliders.deploy(deployer.address);
 
   console.log("MyNFT deployed to:", await myNFT.getAddress());
+
+  const MainEvent = await hre.ethers.getContractFactory("EventContract");
+  const myEvent = await MainEvent.deploy(deployer.address);
+
+  console.log("MyEventT deployed to:", await myEvent.getAddress());
 }
 
 main()
