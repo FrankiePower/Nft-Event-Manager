@@ -68,6 +68,13 @@ for verification on the block explorer. Waiting for verification result...
 Successfully verified contract Sliders on the block explorer.
 https://sepolia-blockscout.lisk.com/address/0xbF7CE61Bb57c3F61238c67FdD0c0939C0e5182F3#code
 
+Successfully submitted source code for contract
+contracts/Event.sol:EventContract at 0xA52c34C0b50D9cdEc5fa4f07335C05291e67Ba2e
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract EventContract on the block explorer.
+https://sepolia-blockscout.lisk.com/address/0xA52c34C0b50D9cdEc5fa4f07335C05291e67Ba2e#code
+
 ## License
 
 See LICENSE file for details.
