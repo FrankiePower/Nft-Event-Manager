@@ -57,8 +57,16 @@ This project uses Solidity ^0.8.24 and OpenZeppelin contracts. Ensure you have t
 
 # Addresses
 
-Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
-MyNFT deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Deploying contracts with the account: 0xf1bEAAb3D518994d74248f01b862E9E01534d91D
+MyNFT deployed to: 0xbF7CE61Bb57c3F61238c67FdD0c0939C0e5182F3
+MyEventT deployed to: 0xA52c34C0b50D9cdEc5fa4f07335C05291e67Ba2e
+
+Successfully submitted source code for contract
+contracts/Nft.sol:Sliders at 0xbF7CE61Bb57c3F61238c67FdD0c0939C0e5182F3
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract Sliders on the block explorer.
+https://sepolia-blockscout.lisk.com/address/0xbF7CE61Bb57c3F61238c67FdD0c0939C0e5182F3#code
 
 ## License
 
